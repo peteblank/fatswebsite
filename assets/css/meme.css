@@ -1,0 +1,19 @@
+#memes .col .card{
+    border: 0;
+    background: #FCFCFC;
+    box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
+    border-radius: 40px 40px 0px 0px;
+}
+#memes .col .card img{
+    border-radius: 40px 40px 0px 0px;
+}
+#memes .col .card .card-footer{
+    background-color: #FCFCFC;
+}
+#memes .col .card span , #memes .col .card i{
+    color:#A0A3BD ;
+}
+#memes .col .card i:hover{
+    color: #ED2E7E;
+    cursor: pointer;
+}

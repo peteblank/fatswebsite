@@ -1,0 +1,201 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F7F7FC;
+    background-image:url('../images/primary-background.png');
+    font-size:18px;
+}
+td{
+  width:300px;
+}
+.container2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height:100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.bold48{
+    font-size:48px;
+    font-weight:700;
+}
+.regular48{
+    font-size:48px;
+}
+.bold32{
+    font-size:32px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.regular18{
+  font-size:18px;
+}
+.semibold18{
+  font-weight:600;
+  font-size:18px;
+}
+.semibold16{
+  font-weight:600;
+  font-size:16px;
+}
+.regular14{
+  font-size:14px;
+  color: #A0A3BD;
+}
+.semibold14{
+  font-size:14px;
+  font-weight:600;
+}
+
+.navbar{
+  height:96px;
+  background-color:#FCFCFC;
+  width:100%;
+}
+.container {
+  position: relative;
+}
+button{
+  background: #00BA88;
+  border-radius:40px;
+  border-style:none;
+  border-color:white;
+  color:white;
+  position:absolute;
+  width:200px;
+  height:56px;
+}
+button a{
+  color:white;
+  text-decoration:none;
+}
+.coming{
+  color:#A0A3BD;
+}
+.nav{
+  display:inline-block;
+  padding-left:150px;
+  font-weight:600;
+  font-size:16px;
+}
+.vector1{
+height: 478.55px;
+left: 1px;
+top: 94.5px;
+width:100%;
+}
+.jumbotron{
+  background:none;
+ height:250px;
+}
+.jumbotron3{
+  background:none;
+ height:200px;
+}
+.jumbotron2{
+    height:479px;
+    width:100%;
+}
+a{
+  color:#00BA88;
+  text-decoration:none;
+}
+li{
+  display:inline-block;
+  
+}
+.div{
+  border:1px solid black;
+}
+.meme{
+  background-color:white;width: 305px;height: 320px;
+}
+.footer{
+
+  width:100%
+}
+#wallet{
+  margin-left:50px;
+}
+#amount{
+  margin-left:50px;
+}
+#demo{
+  margin-left:100px;
+}
+.link{
+  padding-left:300px;
+}
+@media screen and (max-width: 768px){
+  button{
+    width:90px;
+    height:56px;
+  }
+  #multivendor{
+    width:150px;
+    height:80px;
+    display:block;
+  }
+  .nav{
+    display:inline-block;
+    padding-left:50px;
+    font-weight:600;
+    font-size:16px;
+  }
+  #paypal-button-container{
+    margin-left:200px;
+  }
+  #wallet{
+    margin:none;
+  }
+  #amount{
+    margin:none;
+  }
+  #demo{
+   margin-right:100px; 
+  }
+  .nav{
+    display:block;
+  }
+  .navbar-brand{
+    margin-left:60%;
+  }
+  .navbar-collapse{
+    background-color:white;
+  }
+
+  .meme{
+    background-color:white;width: 305px;height: 320px;margin-left:50px;margin-bottom:50px;
+  }
+  .pizza{
+    padding:0px;
+    height:100px;
+  }
+  .link{
+    padding-left:30px;
+  }
+  li{
+    display:flex;
+    padding-bottom:50px;
+  }
+  #multivendor{
+    width:100px;
+    margin-left:20px;
+  }
+  .push{
+    margin-left:70px;
+  }
+  .push2{
+    margin-left:40px;
+  }
+}

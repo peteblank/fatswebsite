@@ -1,0 +1,36 @@
+footer{
+    background-color: #14142B;
+    padding: 40px 0 43px 0;
+}
+footer .footer-logo img{
+    width: 60px;
+}
+footer .footer-nav li{
+    margin: 0 20px;
+}
+footer .footer-nav a{
+    color: #F7F7FC;
+    font-size: 16px;
+}
+footer .footer-nav a:hover{
+    color: #b9b9b9;
+}
+footer .footer-nav{
+    margin-bottom: 77px;
+}
+footer .copyright-text{
+    color: rgba(247, 247, 252, 0.4);
+    font-size: 16px;
+}
+footer ul.icons li{
+    margin: 0 8px;
+}
+footer .medium-icon{
+    width: 45px;
+}
+footer .cradit p{
+    color: rgba(247, 247, 252, 0.4);
+}
+footer .cradit a {
+    color: rgba(247, 247, 252, 0.4);
+}

@@ -1,0 +1,63 @@
+/*------------------
+ Home page & footer
+ ------------------ */
+
+@media (max-width:1399px) {
+    .nav{
+        padding-left: 90px;
+    }
+    .jumbotron{
+        height: 200px;
+    }
+    .asfsaf{
+        height: 199px;
+        margin-top: 20px;
+    }
+    .vector1{
+        height: 430px;
+    }
+    .jumbotron2{
+        height: unset;
+    }
+}
+
+@media (max-width:1199px) {
+    button{
+        width: 170px;
+        height: 50px;
+    }
+    #multivendor{
+        transform: scale(0.9);
+    }
+    .link{
+        padding-left: 0;
+    }
+    .dsggfgd{
+        width: 150px;
+    }
+    .syrysg{
+        margin-top: unset !important;
+        transform: scale(0.9);
+    }
+    footer .footer-nav li {
+        margin: 0px 14px;
+    }
+}
+
+@media (max-width:991px) {
+    .nav {
+        padding-left: 60px;
+    }
+    footer{
+        padding: 40px 0 20px 0;
+    }
+}
+
+@media (max-width:576px) {
+    footer{
+        padding: 20px 0 10px 0;
+    }
+    footer .copyright-text , footer .cradit{
+        font-size: 10px;
+    }
+}
