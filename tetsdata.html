@@ -1,0 +1,26 @@
+<html>
+<head>
+<body>
+<table>
+<tr>
+<td>dollars</td><td id="usd">1</td>
+</tr>
+</table>
+<script>
+    something();
+    function something()
+    {
+    let url = 'https://fats-api.herokuapp.com/';
+    fetch(url,{
+        headers: { "Content-type": "application/json",
+      "Access-Control-Allow-Origin":"https://fatscrt.finance" }
+        })
+        .then(res => res.json())
+        .then(dollars => dollars.dollars)
+        .then(dollars2=>{document.getElementById("usd").innerHTML=dollars2;
+        console.log(dollars2);})
+    }
+    </script>
+</body>
+</head>
+</html>

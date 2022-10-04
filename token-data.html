@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>$FAT</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/my-style.css">
+
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #32CD32;
+            color: white;
+        }
+    </style>
+</head>
+
+<body onload="something()">
+
+    <nav class="navbar navbar-expand-lg top-nav sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav menuList m-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="stake.html">staking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="token-data.html">Token and Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="memes.html">Memes </a>
+                    </li>
+                </ul>
+                <ul class="d-flex menuList">
+                    <li class="nav-item">
+                        <a class="nav-link" href="road-map.html">
+                            <span class="road-tt">Road Map</span>
+                            <span class="road-img">
+                                <img src="assets/img/roadmap.png">
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Connect-btn" href="connect.html">Connect Wallet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-text text-center">
+                        <div class="h1">
+                            Fat Secret is secret, but
+                            <span class="primary-c fw-bold">fatter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-desh pt-100">
+        <div class="container2">
+            <iframe class="responsive-iframe w-100" style="height: 100vh;"
+                src="https://www.secretanalytics.xyz/secretswap/secret1fspv4fzc90g72r22djhhtf2jrxvcte3dsvp2dk"></iframe>
+        </div>
+    </div>
+
+    <div class="token-tables-area pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="h2">Overwiev and Tokenomics</div>
+                    <div class="tokenomis-tt">
+                        <div class="tabil-toke">
+                            <table>
+                                <tr>
+                                    <td>Price <span style="color:#00BA88">USD</span></td>
+                                    <td id="usd"></td>
+                                </tr>
+                                <tr>
+                                    <td>Price <span style="color:#00BA88">SCRT</span></td>
+                                    <td id="scrt"></td>
+                                </tr>
+                                <tr>
+                                    <td>Marketcap <span style="color:#00BA88">USD</span></td>
+                                    <td id="marketcap"></td>
+                                </tr>
+                                <tr>
+                                    <td>Trading volume</span></td>
+                                    <td id="volume">N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Users </span></td>
+                                    <td id="users"><a style="color:#00BA88"
+                                            href="https://secretnodes.com/secret/chains/secret-2/contracts/secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798">click
+                                            here</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Computations </span></td id="computations">
+                                    <td><a style="color:#00BA88"
+                                            href="https://secretnodes.com/secret/chains/secret-2/contracts/secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798">click
+                                            here</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="rate-img">
+                            <img src="assets/img/rate2.png">
+                        </div>
+                    </div>
+                    <div class="fats-table mt-5">
+                        <table>
+                            <tr>
+                                <td>FATS addy</td>
+                                <td>secret1xzlgeyuuyqje79ma6vllregprkmgwgavk8y798</td>
+                            </tr>
+                            <tr>
+                                <td>Name </td>
+                                <td>Fat Secret</td>
+                            </tr>
+                            <tr>
+                                <td>Symbol </td>
+                                <td>FATS</td>
+                            </tr>
+                            <tr>
+                                <td>Max Supply</td>
+                                <td>1000 <span style="color: #00BA88;">FATS</span></td>
+                            </tr>
+                            <tr>
+                                <td>Total Supply </td>
+                                <td>977.5 <span style="color: #00BA88;">FATS</span></td>
+                            </tr>
+                            <tr>
+                                <td>Decimals</td>
+                                <td>3</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="donut-area data-donut pt-200">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="h2 set-title ms-5">
+                        About FATS token
+                    </div>
+                    <div class="prod-not mt-5 ">
+                        <div class="prod-not-box">
+                            <p class="mb-0">
+                                Fat secret is a <a href="#" >snip20</a> token that was born and created on <a href="#">Secret Network</a> Blockchain. Any
+                                transaction and all rolling balances are forever kept encrypted, ensuring both anonymity
+                                and confidentiality.
+                                <br>
+                                <br>
+                                Shop with $FATS freely knowing
+                                that your purchases always kept <a href="#">private</a>.
+                            </p>
+                        </div>
+                        <div class="prod-not-img">
+                            <img src="assets/img/shield.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fatsbot-data pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text text-center pb-5">This page contains historical price data fed from the fatsbot</h2>
+
+                    <div id="demo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-top">
+                        <div class="footer-logo">
+                            <a href="#"><img src="assets/img/footer-logo.png"></a>
+                        </div>
+                        <ul class="footer-list">
+                            <li><a href="stake.html">Staking</a></li>
+                            <li><a href="token-data.html">Token and Data</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="memes.html">Memes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-button">
+                        <p>©FatSecret. No Rights Reserved</p>
+                        <ul class="footer-social ms-auto">
+                            <li><a href="t.me/fatscrt"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="https://twitter.com/fatscrt"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/peteblank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="#"><img src="assets/img/medium-ff.png" alt=""></a></li>
+                        </ul>
+                        <p class="ms-auto">Designed by katusuna</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function something() {
+            var value = "<table id='customers'><tr style='background-color:#32CD32'><td>created_on</td><td>number</td><td>dollars</td><td>sscrt</td></tr>";
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    jsonStr = JSON.parse(this.responseText);
+
+                    for (var i = 0; i < jsonStr.values.length; i++) {
+                        var something = jsonStr.values;
+
+                        var something2 = something[i].toString()
+
+                        date = something2.slice(0, 19);
+                        rest = something2.slice(20);
+
+                        var match = rest.split(',')
+                        for (var a in match) {
+
+                            value += "<tr><td>" + date + "</td><td>" + match[a, 0] + "</td><td>" + match[a, 1] + "</td><td>" + match[a, 2] + "</td></tr>";
+                        }
+
+                    }
+                }
+                document.getElementById("demo").innerHTML =
+                    value;
+
+            }
+            xhttp.open("GET", "https://data.heroku.com/dataclips/dejemgzpcrzzkokryonbtyceutbj.json", true);
+            xhttp.send();
+        }
+        something2();
+        function something2() {
+            let url = 'https://fats-api.herokuapp.com/';
+            fetch(url, {
+                headers: {
+                    "Content-type": "application/json",
+                    "Access-Control-Allow-Origin": "https://fatscrt.store"
+                }
+            })
+                .then(res => res.json())
+                .then(dollars => dollars.dollars)
+                .then(dollars2 => {
+                    document.getElementById("usd").innerHTML = "$ " + dollars2;
+                    console.log(dollars2);
+                })
+        }
+        something3();
+        function something3() {
+            let url = 'https://fats-api.herokuapp.com/';
+            fetch(url, {
+                headers: {
+                    "Content-type": "application/json",
+                    "Access-Control-Allow-Origin": "https://fatscrt.store"
+                }
+            })
+                .then(res => res.json())
+                .then(dollars => dollars.sscrt)
+                .then(dollars2 => {
+                    document.getElementById("scrt").innerHTML = dollars2 + " sscrt";
+                    console.log(dollars2);
+                })
+        }
+        something4();
+        function something4() {
+            let url = 'https://fats-api.herokuapp.com/';
+            fetch(url, {
+                headers: {
+                    "Content-type": "application/json",
+                    "Access-Control-Allow-Origin": "https://fatscrt.store"
+                }
+            })
+                .then(res => res.json())
+                .then(dollars => dollars.dollars * 977.5)
+                .then(dollars2 => {
+                    document.getElementById("marketcap").innerHTML = "$ " + dollars2;
+                    console.log(dollars2);
+                })
+        }
+    </script>
+</body>
+
+</html>
